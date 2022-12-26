@@ -22,7 +22,7 @@
 		<!ENTITY xavi SYSTEM "images/Xavi.jpg" NDATA JPG>
         <!ENTITY ancelotti SYSTEM "images/Ancelotti.jpg" NDATA JPG>
         <!ENTITY nagelsmann SYSTEM "images/Nagelsmann.jpg" NDATA JPG>
-        <!ENTITY terzic SYSTEM "images/Terzic.jpg" NDATA JPG>
+        <!ENTITY terzic SYSTEM "images/Terzic.jpeg" NDATA JPG>
         <!ENTITY hag SYSTEM "images/Hag.jpg" NDATA JPG>
         <!ENTITY guardiola SYSTEM "images/Guardiola.jpg" NDATA JPG>
 		<!ENTITY allegri SYSTEM "images/Allegri.jpg" NDATA JPG> 
