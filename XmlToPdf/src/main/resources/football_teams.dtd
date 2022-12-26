@@ -27,7 +27,7 @@
 <!ELEMENT coaches (coach*)>
     <!ELEMENT coach (name, photo?, birth_date, coach_since)>
         <!ATTLIST coach id ID #REQUIRED
-                        teamRef ID #REQUIRED>
+                        teamRef IDREF #REQUIRED>
 <!--        <!ELEMENT name (#PCDATA)>-->
         <!ELEMENT photo EMPTY>
         <!ATTLIST photo src ENTITY #REQUIRED>
