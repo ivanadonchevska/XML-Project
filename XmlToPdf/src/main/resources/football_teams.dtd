@@ -1,14 +1,14 @@
 <!ELEMENT football (leagues, football_teams, coaches)>
 
 <!ELEMENT leagues (league*)>
-    <!ELEMENT league (name, logo, country, number_of_teams, founded)>
+    <!ELEMENT league (league_name, league_logo, country, number_of_teams, league_founded)>
         <!ATTLIST league id ID #REQUIRED>
-<!--        <!ELEMENT name (#PCDATA)>-->
-<!--        <!ELEMENT logo EMPTY>-->
-<!--        <!ATTLIST logo src ENTITY #REQUIRED>-->
+       <!ELEMENT league_name (#PCDATA)>
+       <!ELEMENT league_logo EMPTY>
+       <!ATTLIST league_logo src ENTITY #REQUIRED>
         <!ELEMENT country (#PCDATA)>
         <!ELEMENT number_of_teams (#PCDATA)>
-<!--        <!ELEMENT founded (#PCDATA)>-->
+       <!ELEMENT league_founded (#PCDATA)>
 
 <!ELEMENT football_teams (football_team*)>
     <!ELEMENT football_team (name, logo, founded, stadium, location, captain, description)>
@@ -25,10 +25,10 @@
         <!ELEMENT description (#PCDATA)>
 
 <!ELEMENT coaches (coach*)>
-    <!ELEMENT coach (name, photo?, birth_date, coach_since)>
+    <!ELEMENT coach (coach_name, photo?, birth_date, coach_since)>
         <!ATTLIST coach id ID #REQUIRED
                         teamRef IDREF #REQUIRED>
-<!--        <!ELEMENT name (#PCDATA)>-->
+       <!ELEMENT coach_name (#PCDATA)>
         <!ELEMENT photo EMPTY>
         <!ATTLIST photo src ENTITY #REQUIRED>
         <!ELEMENT birth_date (#PCDATA)>

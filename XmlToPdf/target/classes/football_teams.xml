@@ -33,36 +33,36 @@
 <football>
     <leagues>
         <league id="LL">
-            <name>La Liga</name>
-            <logo src="la_liga"/>
+            <league_name>La Liga</league_name>
+            <league_logo src="la_liga"/>
             <country>Spain</country>
             <number_of_teams>20</number_of_teams>
-            <founded>1929</founded>
+            <league_founded>1929</league_founded>
             <!-- <current_champions></current_champions> -->
         </league>
         
         <league id="PL">
-            <name>Premier League</name>
-            <logo src="premier_league"/>
+            <league_name>Premier League</league_name>
+            <league_logo src="premier_league"/>
             <country>England</country>
             <number_of_teams>20</number_of_teams>
-            <founded>1992</founded>
+            <league_founded>1992</league_founded>
         </league>
     
         <league id="SerieA">
-            <name>Serie A</name>
-            <logo src="serie_a"/>
+            <league_name>Serie A</league_name>
+            <league_logo src="serie_a"/>
             <country>Italy</country>
             <number_of_teams>20</number_of_teams>
-            <founded>1929</founded>
+            <league_founded>1929</league_founded>
         </league>
 
         <league id="Bundesliga">
-            <name>Bundesliga</name>
-            <logo src="bundesliga"/>
+            <league_name>Bundesliga</league_name>
+            <league_logo src="bundesliga"/>
             <country>Germany</country>
             <number_of_teams>18</number_of_teams>
-            <founded>1963</founded>
+            <league_founded>1963</league_founded>
         </league>
     </leagues>
     
@@ -194,7 +194,7 @@
 
     <coaches>
         <coach id="Xavi" teamRef="BAR">
-            <name>Xavier Hernández Creus</name>
+            <coach_name>Xavier Hernández Creus</coach_name>
             <photo src="xavi"/>
             <birth_date>25 January 1980</birth_date>
             <coach_since>2021</coach_since>
@@ -203,56 +203,56 @@
         </coach>
 
         <coach id="Ancelotti" teamRef="RMA">
-            <name>Carlo Ancelotti</name>
+            <coach_name>Carlo Ancelotti</coach_name>
             <photo src="ancelotti"/>
             <birth_date>25 January 1980</birth_date>
             <coach_since>2021</coach_since>
         </coach>
 
         <coach id="Nagelsmann" teamRef="FCB">
-            <name>Julian Nagelsmann</name>
+            <coach_name>Julian Nagelsmann</coach_name>
             <photo src="nagelsmann"/>
             <birth_date>23 July 1987</birth_date>
             <coach_since>2021</coach_since>
         </coach>
 
         <coach id="Terzic" teamRef="DOR">
-            <name>Edin Terzic</name>
+            <coach_name>Edin Terzic</coach_name>
             <photo src="terzic"/>
             <birth_date>30 October 1982</birth_date>
             <coach_since>2022</coach_since>
         </coach>
 
         <coach id="Hag" teamRef="MNU">
-            <name>Erik ten Hag</name>
+            <coach_name>Erik ten Hag</coach_name>
             <photo src="hag"/>
             <birth_date>2 February 1970 </birth_date>
             <coach_since>2022</coach_since>
         </coach>
 
         <coach id="Guardiola" teamRef="MNC">
-            <name>Josep "Pep" Guardiola Sala</name>
+            <coach_name>Josep "Pep" Guardiola Sala</coach_name>
             <photo src="guardiola"/>
             <birth_date>18 January 1971</birth_date>
             <coach_since>2016</coach_since>
         </coach>
 
         <coach id="Allegri" teamRef="JUV">
-            <name>Massimiliano Allegri</name>
+            <coach_name>Massimiliano Allegri</coach_name>
             <photo src="allegri"/>
             <birth_date>11 August 1967</birth_date>
             <coach_since>2021</coach_since>
         </coach>
 
         <coach id="Pioli" teamRef="MIL">
-            <name>Stefano Pioli</name>
+            <coach_name>Stefano Pioli</coach_name>
             <photo src="pioli"/>
             <birth_date>20 October 1965</birth_date>
             <coach_since>2019</coach_since>
         </coach>
 
         <coach id="Inzaghi" teamRef="INT">
-            <name>Simone Inzaghi</name>
+            <coach_name>Simone Inzaghi</coach_name>
             <photo src="inzaghi"/>
             <birth_date>5 April 1976</birth_date>
             <coach_since>2021</coach_since>

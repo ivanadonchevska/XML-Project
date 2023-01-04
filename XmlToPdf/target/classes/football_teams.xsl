@@ -27,12 +27,12 @@
 				<fo:block-container position="absolute" top="-2.5cm" left="-2.5cm">
 					<fo:block position="absolute" text-align="center" padding-before="2cm" margin-left="2.5cm"
 								font-family="Calibri" font-size="20pt" color="black">
-						<xsl:value-of select="name"/>
+						<xsl:value-of select="league_name"/>
 <!--                        Leagues:-->
 					</fo:block>
 					
 					<fo:block position="absolute" text-align="center" padding-before="7mm" margin-left="2.5cm">
-						<fo:external-graphic src="{unparsed-entity-uri(logo/@src)}" content-height="scale-to-fit"
+						<fo:external-graphic src="{unparsed-entity-uri(league_logo/@src)}" content-height="scale-to-fit"
 											 height="250px" content-width="700px"/>
 					</fo:block>
 					
@@ -40,7 +40,7 @@
 					padding-before="5mm" margin-left="2cm">
 						Name:
 						<fo:inline position="relative" padding-left="32mm" font-weight="normal" font-size="14pt">
-							<xsl:value-of select="name"/> 
+							<xsl:value-of select="league_name"/>
 						</fo:inline>
 					</fo:block> 
 					
@@ -64,7 +64,7 @@
 					padding-before="5mm" margin-left="2cm">
 						Founded:
 						<fo:inline position="relative" padding-left="31mm" font-weight="normal" font-size="14pt">
-							<xsl:value-of select="founded"/> 
+							<xsl:value-of select="league_founded"/>
 						</fo:inline>
 					</fo:block> 
                     <!--current champion-->
@@ -120,7 +120,7 @@
 					padding-before="5mm" margin-left="2cm">
 						Coach:
 						<fo:inline position="relative" padding-left="27mm" font-weight="normal" font-size="14pt">
-							<xsl:value-of select="//coach[@id = $coach_reference_id ]/name"/>
+							<xsl:value-of select="//coach[@id = $coach_reference_id ]/coach_name"/>
 						</fo:inline>
 					</fo:block>
 					
@@ -128,7 +128,7 @@
 					padding-before="5mm" margin-left="2cm">
 						Competition:
 						<fo:inline position="relative" padding-left="27mm" font-weight="normal" font-size="14pt">
-							<xsl:value-of select="//league[@id = $league_reference_id]/name"/>
+							<xsl:value-of select="//league[@id = $league_reference_id]/league_name"/>
 						</fo:inline>
 					</fo:block>
 				
@@ -163,37 +163,38 @@
 				<fo:block-container position="absolute" top="-2.5cm" left="-2.5cm">
 					<fo:block position="absolute" text-align="center" padding-before="2cm" margin-left="2.5cm"
 								font-family="Calibri" font-size="20pt" color="black">
-						<xsl:value-of select="name"/>
+						<xsl:value-of select="coach_name"/>
 					</fo:block>
 					
 					<fo:block position="absolute" text-align="center" padding-before="7mm" margin-left="2.5cm">
 						<fo:external-graphic src="{unparsed-entity-uri(photo/@src)}" content-height="scale-to-fit"
 											 height="250px" content-width="700px"/>
 					</fo:block>
-					
-					<fo:block position="relative" font-family="Calibri" font-weight="bold" font-size="15pt" color="black" 
-					padding-before="5mm" margin-left="2cm">
-						Birth date:
-						<fo:inline position="relative" padding-left="32mm" font-weight="normal" font-size="14pt">
-							<xsl:value-of select="birth_date"/> 
-						</fo:inline>
-					</fo:block> 
-					
-					<fo:block position="relative" font-family="Calibri" font-weight="bold" font-size="15pt" color="black" 
-					padding-before="5mm" margin-left="2cm">
-						Coach since:
-						<fo:inline position="relative" padding-left="10mm" font-weight="normal" font-size="14pt">
-							<xsl:value-of select="coach_since"/> 
-						</fo:inline>
-					</fo:block>
 
-					<fo:block position="relative" font-family="Calibri" font-weight="bold" font-size="15pt" color="black" 
+					<fo:block position="relative" font-family="Calibri" font-weight="bold" font-size="15pt" color="black"
 					padding-before="5mm" margin-left="2cm">
 						Coach of:
 						<fo:inline position="relative" padding-left="27mm" font-weight="normal" font-size="14pt">
 							<xsl:value-of select="//football_team[@id = $team_reference_id ]/name"/>
 						</fo:inline>
 					</fo:block>
+
+					<fo:block position="relative" font-family="Calibri" font-weight="bold" font-size="15pt" color="black"
+							  padding-before="5mm" margin-left="2cm">
+						Coach since:
+						<fo:inline position="relative" padding-left="10mm" font-weight="normal" font-size="14pt">
+							<xsl:value-of select="coach_since"/>
+						</fo:inline>
+					</fo:block>
+
+					<fo:block position="relative" font-family="Calibri" font-weight="bold" font-size="15pt" color="black"
+					padding-before="5mm" margin-left="2cm">
+						Birth date:
+						<fo:inline position="relative" padding-left="32mm" font-weight="normal" font-size="14pt">
+							<xsl:value-of select="birth_date"/>
+						</fo:inline>
+					</fo:block>
+
 				<!--
 					<fo:block position="relative" font-family="Calibri" font-weight="bold" font-size="15pt" color="black" 
 					padding-before="5mm" margin-left="2cm">
