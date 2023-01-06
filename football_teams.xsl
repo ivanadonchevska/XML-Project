@@ -117,6 +117,14 @@
 							<xsl:value-of select="//coach[@id = $coach_reference_id ]/coach_name"/>
 						</fo:inline>
 					</fo:block>
+
+					<fo:block position="relative" font-family="Calibri" font-weight="bold" font-size="15pt" color="black" 
+					padding-before="5mm" margin-left="2cm">
+						Captain:
+						<fo:inline position="relative" padding-left="4mm" font-weight="normal" font-size="14pt">
+							<xsl:value-of select="captain"/> 
+						</fo:inline>
+					</fo:block>
 					
 					<fo:block position="relative" font-family="Calibri" font-weight="bold" font-size="15pt" color="black" 
 					padding-before="5mm" margin-left="2cm">
