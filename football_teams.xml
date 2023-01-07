@@ -38,7 +38,6 @@
             <country>Spain</country>
             <number_of_teams>20</number_of_teams>
             <league_founded>1929</league_founded>
-            <!-- <current_champions></current_champions> -->
         </league>
         
         <league id="PL">
@@ -142,7 +141,7 @@
                         the top flight of English football. Founded in 1880 as St. Mark's (West Gorton), 
                         they became Ardwick Association Football Club in 1887 and Manchester City in 1894.
                         The club's home ground is the Etihad Stadium in east Manchester, to which they moved in 2003, having played at Maine Road since 1923. 
-                        Manchester City adopted their sky blue home shirts in 1894, in the first season with the current name.[3] Over the course of its history, 
+                        Manchester City adopted their sky blue home shirts in 1894, in the first season with the current name. Over the course of its history, 
                         the club has won eight league titles, six FA Cups, eight League Cups, six FA Community Shields, and one European Cup Winners' Cup, 
                         making them the fifth most successful club in English football.</description>
         </football_team>
@@ -160,10 +159,10 @@
                         the latest being the 41,507-capacity Juventus Stadium. Nicknamed Vecchia Signora ("the Old Lady"), the club has won 36 official league titles,
                         14 Coppa Italia titles and nine Supercoppa Italiana titles, being the record holder for all these competitions; two Intercontinental Cups,
                         two European Cups / UEFA Champions Leagues, one European Cup Winners' Cup, a joint national record of three UEFA Cups,
-                        two UEFA Super Cups and a joint national record of one UEFA Intertoto Cup.[6][7] Consequently, the side leads the historical Federazione
-                        Italiana Giuoco Calcio (FIGC) classification[c] whilst on the international stage occupies the sixth position in Europe and the twelfth in
-                        the world for most confederation titles won with eleven trophies,[9] as well as the fourth in the all-time 
-                        Union of European Football Associations (UEFA) competitions ranking,[d] having obtained the highest coefficient score during seven seasons since
+                        two UEFA Super Cups and a joint national record of one UEFA Intertoto Cup. Consequently, the side leads the historical Federazione
+                        Italiana Giuoco Calcio (FIGC) classification whilst on the international stage occupies the sixth position in Europe and the twelfth in
+                        the world for most confederation titles won with eleven trophies, as well as the fourth in the all-time 
+                        Union of European Football Associations (UEFA) competitions ranking, having obtained the highest coefficient score during seven seasons since
                         its introduction in 1979, the most for an Italian team in both cases and joint second overall in the last cited.</description>
         </football_team>
         
@@ -198,8 +197,6 @@
             <photo src="xavi"/>
             <birth_date>25 January 1980</birth_date>
             <coach_since>2021</coach_since>
-            <!-- TODO -->
-            <!-- <description>Description</description> -->
         </coach>
 
         <coach id="Ancelotti" teamRef="RMA">
